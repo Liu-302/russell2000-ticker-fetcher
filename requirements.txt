@@ -1,0 +1,10 @@
+# Russell 2000 Ticker Fetcher - Dependencies
+# Primary data source: Stoxray (uses requests + BeautifulSoup)
+# Test sources: yfinance (for Yahoo Finance IWM ETF testing)
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+urllib3>=1.26.0
+# Optional: for testing yfinance source (usually rate-limited)
+yfinance>=0.2.36
+pandas>=2.0.0
